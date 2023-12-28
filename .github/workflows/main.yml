@@ -20,4 +20,4 @@ jobs:
 
     - name: Sync S3 Bucket
       run: |
-        aws s3 sync ./C:\Users\Devesh\Downloads\Portfolio s3://db-porfolio/ --delete
+        aws s3 sync ./home/runner/work/db-portfolio/db-portfolio/Downloads/Portfolio/db-portfolio s3://db-porfolio/ --delete
