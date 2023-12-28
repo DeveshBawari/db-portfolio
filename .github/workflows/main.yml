@@ -20,4 +20,4 @@ jobs:
 
     - name: Sync S3 Bucket
       run: |
-        aws s3 sync ./db-portfolio s3://db-porfolio/ --delete
+        aws s3 sync ./db-portfolio s3://db-portfolio/ --delete
